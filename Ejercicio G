@@ -1,0 +1,89 @@
+
+#include <stdio.h>
+
+void main()
+{
+//Variables
+float INCH,MILES,YARD,ACRE;
+float pul,mill,yard,acre;
+float INCH2,MILES2,YARD2;
+float YARD3,FEED3,PINTA,GALON;
+float yard3,feed3,pinta,galon;
+float ONZA,LIBRA,TONI;
+float onza,libra,toni;
+//Instrucciones ejecutables
+// Medidas de longitud 
+//Pulgadas
+printf ("ingrese pulgadas: \n");
+scanf ("%f",&pul);
+INCH = pul*25.40;
+printf ("las pulgadas son: %8.3fmm \n",INCH);
+INCH2 = pul*6.452;
+printf ("las pulgadas cuadradas son: %8.3fm2 \n",INCH2);
+//Yardas
+printf ("ingrese yarda: \n");
+scanf ("%f",&yard);
+YARD = yard*0.9144;
+printf ("las yardas son: %8.3fm \n",YARD);
+YARD2 = yard*0.8361;
+printf ("las yardas cuadradas son: %8.3fm2 \n",YARD2);
+//Millas
+printf ("ingrese millas: \n");
+scanf ("%f",&mill);
+MILES = mill*1.6093;
+printf ("las millas son: %8.3fkm \n",MILES);
+MILES2 = mill*2.59;
+printf ("las millas cuadradas son: %8.3fkm2 \n",MILES2);
+//Acre
+printf ("ingrese acres: \n");
+scanf ("%f",&acre);
+ACRE = acre*0.4047;
+printf ("Los acres son: %8.3fhec \n",ACRE);
+//Medidas de volumen
+//Yarda cubica
+printf ("Ingrese yardas: \n");
+scanf ("%f",&yard);
+YARD3 = yard*0.7646;
+printf ("Las yardas cubicas son: %8.3fm3 \n",YARD3);
+//Pies cubicos
+printf("Ingrese pies: \n");
+scanf ("%f",&feed3);
+FEED3 = feed3*0.02832;
+printf ("Los pies cubicos son: %8.3fm3 \n",FEED3);
+//Pinta
+printf("Ingrese pinta: \n");
+scanf("%f",&pinta);
+PINTA = pinta*0.56826;
+printf ("Las pintas son: %8.3fL \n",PINTA);
+//Galon
+printf("Ingrese galon: \n");
+scanf ("%f",&galon);
+GALON = galon*4.54609;
+printf ("Los galones son: %8.3fL \n",GALON);
+//Medidas de peso
+//onza
+printf ("Ingrese onza: \n");
+scanf ("%f",&onza);
+ONZA = onza*28.35;
+printf ("Las onzas son: %8.3fg \n",ONZA);
+//libra
+printf ("Ingrese libra: \n");
+scanf ("%f",&libra);
+LIBRA = libra*0.45359;
+printf ("Las libras son: %8.3fkg \n",LIBRA);
+//Tonelada inglesa
+printf ("Ingrese tonelada inglesa: \n");
+scanf ("%f",&toni);
+TONI = toni*1.0160;
+printf ("Las toneladas inglesas son: %8.3fTon \n",TONI);
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+}
